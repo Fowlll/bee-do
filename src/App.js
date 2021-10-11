@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, HashRouter as Router, Route } from 'react-router-dom';
+import { Switch, HashRouter as Router, Route, Redirect } from 'react-router-dom';
 
 // Style
 import './style/main.css';
@@ -26,6 +26,10 @@ class App extends Component {
       <Router>
 
         <Switch>
+
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
 
           <Route exact path="/home" component={Home} />
           <Route exact path="/login" component={Login} />
