@@ -1,0 +1,64 @@
+#register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+#register > h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+}
+#register-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0px auto 0px auto;
+}
+#register-form > input{
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+#register-form > input[name="email"], #register-form > input[name="register"]{
+    grid-column: 1/-1;
+}
+#register > p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+}
+#honeycomb1{
+    position: absolute;
+    left: -8%;
+    bottom: -15%;
+    width: 30%;
+    animation: floating 10s ease-in-out infinite;
+}
+#honeycomb2{
+    position: absolute;
+    right: -8%;
+    top: -15%;
+    width: 30%;
+    animation-delay: 2s;
+    animation: floating 10s ease-in-out infinite;
+}
+
+@media screen and (max-device-width: 1024px){
+    #honeycomb1, #honeycomb2{
+        display: none;
+
+    }
+    #honeycomb2{
+        position: absolute;
+        right: -8%;
+        top: -15%;
+        width: 30%;
+    }
+}
