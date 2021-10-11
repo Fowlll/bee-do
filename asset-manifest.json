@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.179007a8.chunk.css",
-    "main.js": "/static/js/main.d8914520.chunk.js",
-    "main.js.map": "/static/js/main.d8914520.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5b2be714.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5b2be714.js.map",
-    "static/js/2.5dfbcfa6.chunk.js": "/static/js/2.5dfbcfa6.chunk.js",
-    "static/js/2.5dfbcfa6.chunk.js.map": "/static/js/2.5dfbcfa6.chunk.js.map",
-    "static/js/3.6104b18d.chunk.js": "/static/js/3.6104b18d.chunk.js",
-    "static/js/3.6104b18d.chunk.js.map": "/static/js/3.6104b18d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.179007a8.chunk.css.map": "/static/css/main.179007a8.chunk.css.map",
-    "static/js/2.5dfbcfa6.chunk.js.LICENSE.txt": "/static/js/2.5dfbcfa6.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
-    "static/media/honeycomb.1783ba76.png": "/static/media/honeycomb.1783ba76.png"
+    "main.css": "/bee-do/static/css/main.7909448f.chunk.css",
+    "main.js": "/bee-do/static/js/main.d8914520.chunk.js",
+    "main.js.map": "/bee-do/static/js/main.d8914520.chunk.js.map",
+    "runtime-main.js": "/bee-do/static/js/runtime-main.cb8b45d3.js",
+    "runtime-main.js.map": "/bee-do/static/js/runtime-main.cb8b45d3.js.map",
+    "static/js/2.27ba4369.chunk.js": "/bee-do/static/js/2.27ba4369.chunk.js",
+    "static/js/2.27ba4369.chunk.js.map": "/bee-do/static/js/2.27ba4369.chunk.js.map",
+    "static/js/3.6104b18d.chunk.js": "/bee-do/static/js/3.6104b18d.chunk.js",
+    "static/js/3.6104b18d.chunk.js.map": "/bee-do/static/js/3.6104b18d.chunk.js.map",
+    "index.html": "/bee-do/index.html",
+    "static/css/main.7909448f.chunk.css.map": "/bee-do/static/css/main.7909448f.chunk.css.map",
+    "static/js/2.27ba4369.chunk.js.LICENSE.txt": "/bee-do/static/js/2.27ba4369.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/bee-do/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/honeycomb.1783ba76.png": "/bee-do/static/media/honeycomb.1783ba76.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b2be714.js",
-    "static/js/2.5dfbcfa6.chunk.js",
-    "static/css/main.179007a8.chunk.css",
+    "static/js/runtime-main.cb8b45d3.js",
+    "static/js/2.27ba4369.chunk.js",
+    "static/css/main.7909448f.chunk.css",
     "static/js/main.d8914520.chunk.js"
   ]
 }
