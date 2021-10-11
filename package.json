@@ -2,9 +2,12 @@
   "name": "bee-do",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fowlll.github.io/bee-do/",
   "dependencies": {
     "cra-template": "1.1.2",
     "firebase": "^9.1.2",
+    "gh-pages": "^3.2.3",
+    "github-pages": "^3.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -13,6 +16,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
