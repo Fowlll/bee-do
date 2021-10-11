@@ -23,6 +23,7 @@
 #header > svg{
     position: absolute;
     right: 100px;
+    cursor: pointer;
 }
 
 /* Main */
